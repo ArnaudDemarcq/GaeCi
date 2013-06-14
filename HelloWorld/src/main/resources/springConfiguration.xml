@@ -46,9 +46,4 @@
     <!-- THE WEB APPLICATION MUST BE DEFINED AS SPRING BEAN -->
     <bean id="wicketApplication" class="org.krohm.test.MyApplication" />
 
-    <bean id="TRACKER1" class="beans.Tracer" init-method="init">
-        <property name="key" value="jdbc.password" />
-        <property name="value" value="${jdbc.password}" />
-    </bean>
-
 </beans>
