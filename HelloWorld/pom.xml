@@ -47,6 +47,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>org.wicketstuff</groupId>
+            <artifactId>wicketstuff-gae-initializer</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
         <!-- DA SPRING -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -153,6 +158,13 @@
             <id>org.wicketstuff</id>
             <name>Wicket Stuff Repository</name>
             <url>http://wicketstuff.org/maven/repository</url>
+        </repository>
+        <repository>
+            <id>wicketstuff-core-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>		
         </repository>
         <!-- FOR GAE testing only -->
         <!-- te be removed for real life projects -->
