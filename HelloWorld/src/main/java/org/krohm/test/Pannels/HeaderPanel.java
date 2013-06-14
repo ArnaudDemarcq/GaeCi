@@ -1,4 +1,4 @@
-package test.Pannels;
+package org.krohm.test.Pannels;
 
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.panel.Panel;
