@@ -47,6 +47,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>org.wicketstuff</groupId>
+            <artifactId>gae-initializer-parent</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
+            
         <!-- DA SPRING -->
         <dependency>
             <groupId>org.springframework</groupId>
