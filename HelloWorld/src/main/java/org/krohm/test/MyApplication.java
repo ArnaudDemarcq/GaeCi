@@ -1,7 +1,10 @@
 package org.krohm.test;
 
 import org.apache.wicket.protocol.http.WebApplication;
+import org.apache.wicket.session.HttpSessionStore;
+import org.apache.wicket.session.ISessionStore;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
+import org.apache.wicket.util.IProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
