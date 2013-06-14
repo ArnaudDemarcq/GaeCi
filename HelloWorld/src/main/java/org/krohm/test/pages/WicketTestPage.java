@@ -24,12 +24,13 @@ public class WicketTestPage extends PocMainPage {
     final private List<String> firstList = getBox1List();
     final private Map<String, Process> processMap = new HashMap<String, Process>();
 
-    public WicketTestPage(PageParameters parameters) {
-        super(parameters);
+    public WicketTestPage() {
+        super();
 
+        /*
         for (String key : parameters.getNamedKeys()) {
             logger.debug("param : key<" + key + "> value <" + parameters.get(key) + ">");
-        }
+        }/**/
 
         final Form form = new Form("form") {
 

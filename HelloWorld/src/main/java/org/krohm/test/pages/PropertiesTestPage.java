@@ -21,8 +21,8 @@ public class PropertiesTestPage extends PocMainPage {
 
     private static final Logger logger = LoggerFactory.getLogger(PropertiesTestPage.class);
 
-    public PropertiesTestPage(PageParameters parameters) {
-        super(parameters);
+    public PropertiesTestPage() {
+        super();
         List<String> propList = new ArrayList<String>(System.getProperties().stringPropertyNames());
         PropertyListView propTable = new PropertyListView("propList", propList);
         add(propTable);

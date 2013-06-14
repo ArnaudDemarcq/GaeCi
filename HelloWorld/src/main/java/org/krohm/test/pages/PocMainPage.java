@@ -15,8 +15,8 @@ import org.krohm.test.Pannels.PocListPanel;
  */
 public class PocMainPage extends WebPage {
 
-    public PocMainPage(PageParameters parameters) {
-        super(parameters);
+    public PocMainPage() {
+        super();
         add(new PocListPanel("PocList"));
         add(new HeaderPanel("HeaderPanel"));
     }
