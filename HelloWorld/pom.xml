@@ -49,10 +49,9 @@
         </dependency>
         <dependency>
             <groupId>org.wicketstuff</groupId>
-            <artifactId>gae-initializer-parent</artifactId>
-            <version>${wicket.version}</version>
+            <artifactId>gae-initializer</artifactId>
+            <version>1.5-RC5.1</version>
         </dependency>
-            
         <!-- DA SPRING -->
         <dependency>
             <groupId>org.springframework</groupId>
