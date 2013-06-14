@@ -21,7 +21,6 @@ public class MyApplication extends WebApplication  {
         // For Spring
         springInjection();
         // For GAE
-        /*
         getResourceSettings().setResourcePollFrequency(null);
 
         setSessionStoreProvider(new IProvider<ISessionStore>() {
