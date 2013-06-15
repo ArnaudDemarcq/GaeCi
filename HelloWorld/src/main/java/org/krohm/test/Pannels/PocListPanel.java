@@ -15,6 +15,7 @@ import org.apache.wicket.markup.html.panel.Panel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.krohm.test.Index;
+import org.krohm.test.pages.DatastoreTestPage;
 import org.krohm.test.pages.PropertiesTestPage;
 import org.krohm.test.pages.WicketTestPage;
 
@@ -52,6 +53,7 @@ public class PocListPanel extends Panel {
         returnList.add(new ClassLinkLabel(Index.class, "HomeLink"));
         returnList.add(new ClassLinkLabel(WicketTestPage.class, "WicketLink"));
         returnList.add(new ClassLinkLabel(PropertiesTestPage.class, "PropLink"));
+        returnList.add(new ClassLinkLabel(DatastoreTestPage.class, "DataStore"));
 
         return returnList;
     }
